@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#183b35">
+<title>清爽肌膚養成所｜心法與保養攻略</title>
+<style>
+:root{--green:#183b35;--mint:#dcebe3;--cream:#f7f5ef;--ink:#24332e;--muted:#6c7973;--line:#dce3dc;--white:#fff;--gold:#c58b45}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:system-ui,-apple-system,"Noto Sans TC",sans-serif;line-height:1.7}
+header{background:var(--green);color:white;padding:18px 6vw;display:flex;justify-content:space-between;align-items:center;gap:16px;position:sticky;top:0;z-index:5}
+.brand{font-weight:800;letter-spacing:.08em}.nav{display:flex;gap:20px;flex-wrap:wrap}.nav a{color:#e4eee8;text-decoration:none;font-size:.9rem}
+main{max-width:1100px;margin:auto;padding:0 22px}.hero{padding:78px 0 62px;display:grid;grid-template-columns:1.2fr .8fr;gap:35px;align-items:center}
+.eyebrow{color:var(--gold);font-weight:800;letter-spacing:.18em;font-size:.8rem}.hero h1{font-size:clamp(2.4rem,6vw,4.6rem);line-height:1.13;margin:14px 0 20px;color:var(--green)}
+.hero p{font-size:1.08rem;color:var(--muted);max-width:620px}.hero-card{background:var(--mint);border-radius:28px;padding:30px;min-height:280px;display:flex;flex-direction:column;justify-content:space-between}
+.hero-card .big{font-size:5rem;line-height:1}.hero-card strong{font-size:1.3rem;color:var(--green)}
+.btn{display:inline-block;border:0;border-radius:999px;background:var(--green);color:white;padding:12px 22px;font-weight:700;text-decoration:none;cursor:pointer}
+section{padding:48px 0}.section-head{margin-bottom:24px}.section-head small{color:var(--gold);font-weight:800;letter-spacing:.15em}.section-head h2{font-size:clamp(1.7rem,4vw,2.5rem);color:var(--green);margin:5px 0}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{background:var(--white);border:1px solid var(--line);border-radius:20px;padding:23px}.card .num{font-size:.8rem;color:var(--gold);font-weight:800}.card h3{margin:8px 0;color:var(--green)}.card p{margin:0;color:var(--muted)}
+.routine{display:grid;grid-template-columns:1fr 1fr;gap:18px}.routine .card{padding:26px}.tag{display:inline-block;background:var(--mint);color:var(--green);font-size:.78rem;padding:4px 10px;border-radius:999px;font-weight:700}
+.steps{padding-left:20px}.steps li{padding:5px 0}
+.check-panel{background:var(--green);color:white;border-radius:24px;padding:28px}.check-panel h2{color:white;margin-top:0}.progress{height:9px;background:#45635c;border-radius:20px;overflow:hidden;margin:12px 0 20px}.bar{height:100%;width:0;background:#d5b178;transition:width .2s}
+.checks{display:grid;grid-template-columns:1fr 1fr;gap:12px}.checks label{display:flex;gap:10px;align-items:flex-start;background:#244a42;padding:12px;border-radius:12px;cursor:pointer}.checks input{accent-color:#d5b178;margin-top:6px}
+.week{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.week article{background:white;border-radius:16px;padding:18px;border-top:4px solid var(--gold)}.week h3{margin:0 0 8px;color:var(--green)}
+.note{background:#f0e8d9;border-left:4px solid var(--gold);padding:16px 18px;border-radius:0 12px 12px 0;color:#514536}
+footer{background:#132f2a;color:#dce8e1;padding:28px 6vw;text-align:center;margin-top:40px;font-size:.9rem}
+@media(max-width:760px){header{align-items:flex-start;flex-direction:column}.nav{gap:12px}.hero{grid-template-columns:1fr;padding:52px 0 35px}.grid{grid-template-columns:1fr}.routine{grid-template-columns:1fr}.week{grid-template-columns:1fr 1fr}.checks{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header>
+  <div class="brand">清爽肌膚養成所</div>
+  <nav class="nav"><a href="#mindset">保養心法</a><a href="#routine">每日攻略</a><a href="#habits">生活習慣</a><a href="#tracker">每日打卡</a></nav>
+</header>
+<main>
+  <div class="hero">
+    <div>
+      <div class="eyebrow">SKINCARE · MINDSET · CONSISTENCY</div>
+      <h1>把皮膚照顧好，<br>從每天一點點開始。</h1>
+      <p>一套簡單、務實、適合男性的臉部保養攻略。先穩定清潔、保濕與防曬，再依照自己的膚況逐步改善，不必一次買很多產品。</p>
+      <a class="btn" href="#routine">開始我的保養計畫</a>
+    </div>
+    <div class="hero-card">
+      <div class="big">🌿</div>
+      <strong>真正有效的保養，是能持續的保養。</strong>
+      <span>簡單三步驟：清潔・保濕・防曬</span>
+    </div>
+  </div>
+
+  <section id="mindset">
+    <div class="section-head"><small>01 / MINDSET</small><h2>先建立正確的保養心法</h2><p>不要追求一夜變好，先把基本功做好。</p></div>
+    <div class="grid">
+      <article class="card"><div class="num">心法 01</div><h3>穩定，比昂貴重要</h3><p>選擇適合自己、用起來舒服的產品，規律使用比不停換品牌更重要。</p></article>
+      <article class="card"><div class="num">心法 02</div><h3>溫和，不過度清潔</h3><p>洗臉不是把油脂全部洗光。避免熱水、用力搓揉和頻繁去角質。</p></article>
+      <article class="card"><div class="num">心法 03</div><h3>防曬是日常投資</h3><p>白天做好防曬，幫助降低紫外線造成的曬傷、斑點與光老化。</p></article>
+      <article class="card"><div class="num">心法 04</div><h3>先觀察，再加產品</h3><p>一次只新增一種功能性產品，觀察耐受狀況，避免同時疊加太多刺激。</p></article>
+      <article class="card"><div class="num">心法 05</div><h3>不摳、不擠、不亂摸</h3><p>減少摳痘痘與反覆觸摸，避免刺激皮膚，也降低留下痘疤的風險。</p></article>
+      <article class="card"><div class="num">心法 06</div><h3>追求健康，不追求完美</h3><p>皮膚有自然紋理很正常。目標是舒服、穩定、乾淨，而不是零毛孔。</p></article>
+    </div>
+  </section>
+
+  <section id="routine">
+    <div class="section-head"><small>02 / DAILY ROUTINE</small><h2>早晚保養攻略</h2><p>先用最精簡的步驟建立習慣。</p></div>
+    <div class="routine">
+      <article class="card">
+        <span class="tag">早上 · 3步驟</span>
+        <h3>清醒、保濕、防護</h3>
+        <ol class="steps"><li><b>溫和清潔：</b>依出油程度用清水或溫和洗面乳。</li><li><b>保濕：</b>選清爽、不易刺激的乳液或凝乳。</li><li><b>防曬：</b>選廣效 SPF30 以上；戶外活動時依產品指示補擦。</li></ol>
+      </article>
+      <article class="card">
+        <span class="tag">晚上 · 2步驟</span>
+        <h3>洗掉髒污、維持保濕</h3>
+        <ol class="steps"><li><b>溫和清潔：</b>洗掉防曬、汗水與髒污，不要用力刷洗。</li><li><b>保濕：</b>洗臉後趁皮膚微濕時擦上乳液。</li></ol>
+        <p style="margin-top:12px;color:#6c7973">若有持續痘痘、粉刺或明顯痘疤，再依問題選擇合適成分；敏感或不確定時先諮詢皮膚科。</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="habits">
+    <div class="section-head"><small>03 / LIFESTYLE</small><h2>讓膚況更穩定的生活習慣</h2></div>
+    <div class="grid">
+      <article class="card"><h3>😴 睡眠</h3><p>盡量維持固定作息，成人以每晚約 7–9 小時為目標。</p></article>
+      <article class="card"><h3>🥗 飲食</h3><p>均衡攝取蔬果、蛋白質與全穀類；留意高糖飲食是否讓自己的痘痘惡化。</p></article>
+      <article class="card"><h3>🏃 運動</h3><p>規律活動身體，流汗後以清水或溫和方式清潔，避免汗水長時間悶在皮膚上。</p></article>
+      <article class="card"><h3>🧺 枕套與毛巾</h3><p>定期清洗枕套、毛巾，臉部擦拭以乾淨柔軟的毛巾輕壓為主。</p></article>
+      <article class="card"><h3>🚫 少抽菸、少熬夜</h3><p>避免抽菸，減少長期熬夜與過量飲酒，對整體健康與皮膚狀態都有幫助。</p></article>
+      <article class="card"><h3>🪞 固定觀察</h3><p>每週在相同光線下拍照一次，觀察出油、粉刺與泛紅，不要每天過度檢查。</p></article>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-head"><small>04 / 30-DAY PLAN</small><h2>30天循序漸進計畫</h2></div>
+    <div class="week">
+      <article><h3>第 1 週</h3><p>建立洗臉、保濕、防曬三個基本習慣。</p></article>
+      <article><h3>第 2 週</h3><p>固定睡眠與清潔用品，避免頻繁換產品。</p></article>
+      <article><h3>第 3 週</h3><p>觀察出油、乾燥、粉刺與刺激反應。</p></article>
+      <article><h3>第 4 週</h3><p>比較照片與膚況，決定是否需要針對性調整。</p></article>
+    </div>
+  </section>
+
+  <section id="tracker">
+    <div class="check-panel">
+      <h2>今日保養打卡</h2>
+      <p>每天完成基本任務就好，不需要追求百分之百。</p>
+      <div><b id="count">0 / 7 已完成</b></div>
+      <div class="progress"><div class="bar" id="bar"></div></div>
+      <div class="checks" id="checks">
+        <label><input type="checkbox">早上溫和清潔</label>
+        <label><input type="checkbox">早上擦保濕</label>
+        <label><input type="checkbox">白天做好防曬</label>
+        <label><input type="checkbox">晚上溫和清潔</label>
+        <label><input type="checkbox">晚上擦保濕</label>
+        <label><input type="checkbox">不摳痘、不亂摸臉</label>
+        <label><input type="checkbox">維持規律作息與均衡飲食</label>
+      </div>
+    </div>
+  </section>
+  <div class="note"><b>提醒：</b>保養品可能因膚質不同而有不同反應。新產品先少量、局部測試；若出現持續刺痛、紅腫、脫皮，先停用。嚴重或反覆的痘痘、濕疹、紅疹與疼痛，建議由皮膚科醫師評估。</div>
+</main>
+<footer>清爽肌膚養成所 · 每天一點點，慢慢養成好膚況。</footer>
+<script>
+const boxes=[...document.querySelectorAll('#checks input')],count=document.getElementById('count'),bar=document.getElementById('bar');
+function update(){const n=boxes.filter(x=>x.checked).length;count.textContent=`${n} / ${boxes.length} 已完成`;bar.style.width=(n/boxes.length*100)+'%'}
+boxes.forEach(x=>x.addEventListener('change',update));
+</script>
+</body>
+</html>
